@@ -39,7 +39,7 @@ with Experiment({
     "iterations": 10000,
     "initial_lr": 0.01,
     "lr_decay": 0.999,
-    "flow_length": 4,
+    "flow_length": 16,
     "name": "planar"
 }) as experiment:
 
