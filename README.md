@@ -15,6 +15,8 @@ I got the following results:
   <img src="/assets/flow_16.png" width="320"/>
 </p>
 
+As can be seen, the approximation quality indeed increases as flow length gets higher.
+
 ### Reproducing my results
 
 To reproduce my results, you will need to install [pytorch](http://pytorch.org/).
