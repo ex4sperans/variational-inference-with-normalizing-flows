@@ -2,7 +2,7 @@
 
 Reimplementation of Variational Inference with Normalizing Flows (https://arxiv.org/abs/1505.05770)
 
-The idea is to approximate a complex multimodal probability density with a simple probability density followed by a sequence of invertible nonlinear transforms. Inference in such model requires a computation of multiple Jacobian determinants, which can be computationaly expensive. Authors propose a specific form of the transformation that reduces the cost of computing the Jacobians from approximately ![](/assets/cubic_d.svg) to ![](/assets/linear_d.svg) where ![](/assets/simple_d.svg) is the dimensionality of the data.
+The idea is to approximate a complex multimodal probability density with a simple probability density followed by a sequence of invertible nonlinear transforms. Inference in such model requires a computation of multiple Jacobian determinants, that can be computationaly expensive. Authors propose a specific form of the transformation that reduces the cost of computing the Jacobians from approximately ![](/assets/cubic_d.svg) to ![](/assets/linear_d.svg) where ![](/assets/simple_d.svg) is the dimensionality of the data.
 
 I got the following results:
 
@@ -17,7 +17,7 @@ I got the following results:
   <img src="/assets/flow_16.png" width="320"/>
 </p>
 
-As can be seen, the approximation quality indeed increases as flow length gets higher.
+As can be seen, the approximation quality indeed increases as the flow length gets higher.
 
 ### Reproducing my results
 
